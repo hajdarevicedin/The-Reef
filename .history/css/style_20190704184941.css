@@ -522,7 +522,7 @@ body{
 .index-4-center-bg{
 		background-image:url(../img/chef-bob-henle.jpg);
 		background-attachment:fixed;
-	
+		background-size:100%;
 		background-position:center bottom;
 		background-size: cover;
 		max-width: 100%;

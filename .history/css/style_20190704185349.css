@@ -522,7 +522,7 @@ body{
 .index-4-center-bg{
 		background-image:url(../img/chef-bob-henle.jpg);
 		background-attachment:fixed;
-	
+		background-size:100%;
 		background-position:center bottom;
 		background-size: cover;
 		max-width: 100%;
@@ -3535,7 +3535,7 @@ a:hover div.shop-hover div.shop-a{
 .event-room-bg{
 		background-image:url(../img/banqhall.jpg);
 		background-attachment:fixed;
-		background-size:cover;
+		background-size:100%;
 		background-position:center bottom;
 }
 .event-room-bg-black{

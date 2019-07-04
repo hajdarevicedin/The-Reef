@@ -362,10 +362,10 @@ body{
 .index-4-top-bg{
 		background-image:url(../img/jtatbar.jpg);
 		background-attachment:fixed;
-		background-position:center bottom;
-		background-size: cover;
-
-
+		background-size:100%;
+		background-position:bottom;
+		display:block;
+		max-width: 100%
 }
 .index-4-top-bg-black{
 		background-color:rgba(0,0,0,0.3);
@@ -522,9 +522,7 @@ body{
 .index-4-center-bg{
 		background-image:url(../img/chef-bob-henle.jpg);
 		background-attachment:fixed;
-	
-		background-position:center bottom;
-		background-size: cover;
+		background-size:100%;
 		max-width: 100%;
 }
 .index-4-center-bg-black{
@@ -1557,13 +1555,13 @@ body{
 .gallery-head-bg{
 		background-image:url(../img/header-image/gallery-head.jpg);
 		min-height:500px;
-		background-position:center bottom;
-		background-size: cover;
+	
 }
 .gallery-head-bg-black{
 		background-color:rgba(0,0,0,0.4);
-		width:100%;
+
 		min-height:500px;
+		max-width: 100%;
 }
 .gallery-head-bg h2{
 		text-align:center;
@@ -3536,7 +3534,6 @@ a:hover div.shop-hover div.shop-a{
 		background-image:url(../img/banqhall.jpg);
 		background-attachment:fixed;
 		background-size:cover;
-		background-position:center bottom;
 }
 .event-room-bg-black{
 		background-color:rgba(0,0,0,0.5);
